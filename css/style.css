@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;
+
+600;700&display=swap);
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap);
 @font-face {
   font-family: icons;
   font-display: swap;
@@ -1459,9 +1461,9 @@ body::after {
 }
 
 .box-menu {
-  -webkit-column-gap: 20px;
-     -moz-column-gap: 20px;
-          column-gap: 20px;
+  -webkit-column-gap: 1.25rem;
+     -moz-column-gap: 1.25rem;
+          column-gap: 1.25rem;
 }
 
 .box-menu a {
@@ -4969,7 +4971,7 @@ body::after {
     top: 0;
     left: -100%;
     width: 100%;
-    height: 70px;
+    height: 4.375rem;
     background-color: #141414;
   }
 
@@ -4995,6 +4997,10 @@ body::after {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+
+  .top-header__auth._icon-user-icon {
+    font-size: 2.1875rem;
   }
 
   .body-header__heart {
